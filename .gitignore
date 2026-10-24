@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+.env.local
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local databases & Binaries
+*.db
+*.sqlite
+*.sqlite3
+/tmp/
+__pycache__/
+*.pyc
+
+# Personal archives & raw dumps
+*.zip
+*.tar.gz
+*.xlsx
+~$*.xlsx
